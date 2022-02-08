@@ -1,0 +1,14 @@
+.page-header__container {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid $headerBorderColor;
+}
+
+.page-header__logo {
+    padding: 5px 0;
+
+    color: $titleTextColor;
+}

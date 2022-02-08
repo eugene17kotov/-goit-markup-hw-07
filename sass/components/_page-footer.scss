@@ -1,0 +1,46 @@
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: $accentBgColor;
+}
+
+.page-footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.page-footer__nav {
+    flex-grow: 1;
+}
+
+.page-footer__logo {
+    margin-bottom: 20px;
+
+    color: $whiteColor;
+}
+
+.page-footer__socials {
+    margin-left: 70px;
+}
+
+.page-footer__text {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    line-height: 1.33;
+
+    color: $whiteColor;
+
+    text-transform: uppercase;
+}
+
+.socials__link--ft-color {
+    color: $whiteColor;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &:hover,
+    &:focus {
+        background-color: $accentColor;
+    }
+}
